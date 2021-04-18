@@ -1,0 +1,31 @@
+{
+    "name": "nova-theme",
+    "displayName": "Nova Theme",
+    "description": "Dark Theme for VS Code",
+    "version": "1.0.0",
+    "publisher": "daniel692a",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "author": {
+        "name": "Daniel Armas Ramírez",
+        "email": "daniel62armas@gmail.com",
+        "url": "https://github.com/daniel692a"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "url": "https://github.com/daniel692a/nova-theme.git",
+        "type": "git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nova Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nova Theme-color-theme.json"
+            }
+        ]
+    }
+}
